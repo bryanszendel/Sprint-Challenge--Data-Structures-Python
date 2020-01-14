@@ -16,11 +16,13 @@ for i in names_2:
 f.close()
 
 duplicates = []
+# ORIGINAL NESTED FOR LOOP
 # for name_1 in names_1:
 #     for name_2 in names_2:
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
 
+# SOLUTION WITH BINARY SEARCH TREE
 for name_1 in names_1:
     if names_tree2.contains(name_1):
         duplicates.append(name_1)

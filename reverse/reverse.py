@@ -50,4 +50,3 @@ class LinkedList:
           value1 = value1.next_node
         else:
           return None
-    
